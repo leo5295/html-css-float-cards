@@ -28,10 +28,16 @@ img{
 .row .col{
     float: left;
     width: calc(100%/3);
+    background-color: black;
+    margin: 10px;
 }
 
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+
+.container-photo{
+    color: white;
 }
