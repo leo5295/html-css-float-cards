@@ -45,7 +45,7 @@ img{
     background-color: black;
 }
 
-text{
+.text{
     display: inline;
     vertical-align: middle;
 }
