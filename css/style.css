@@ -5,5 +5,13 @@
 }
 
 body{
-    background-color: red;
+    font-family: 'Fredoka', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    color: palevioletred;
 }
