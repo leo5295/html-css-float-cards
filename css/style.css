@@ -23,6 +23,7 @@ p{
 img{
     width: 80px;
     height: 80px;
+    float: left;
 }
 
 .row .col{
@@ -45,7 +46,13 @@ img{
     background-color: black;
 }
 
+.card::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
 .text{
-    display: inline;
-    vertical-align: middle;
+float: right;
+width: calc(100% - 100px);
 }
