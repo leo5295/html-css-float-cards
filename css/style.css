@@ -55,4 +55,18 @@ img{
 .text{
 float: right;
 width: calc(100% - 100px);
+padding: 10px;
+}
+
+.card div{
+    font-size: 13px;
+}
+
+a{
+    color: aqua;
+}
+
+strong{
+    text-transform: uppercase;
+    
 }
